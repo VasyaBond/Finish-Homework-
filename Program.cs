@@ -29,3 +29,16 @@ class Program
             // Increase Indexes
             iterationCounter++;
         }
+
+        // Array Output
+        Console.WriteLine("\nOriginal Array:");
+        PrintArray(originalArray);
+
+        Console.WriteLine("\nNew Array (Length <= 3):");
+        PrintArray(newArray);
+
+        // End of Program
+        Console.WriteLine("\nEnd of program.");
+    }
+    
+
