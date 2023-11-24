@@ -40,5 +40,15 @@ class Program
         // End of Program
         Console.WriteLine("\nEnd of program.");
     }
-    
+
+    static void PrintArray(string[] array)
+    {
+        foreach (var item in array)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+    }
+}
+
 
