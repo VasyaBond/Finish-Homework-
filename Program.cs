@@ -11,3 +11,21 @@ class Program
         // Initializing Iteration Counter
         int iterationCounter = 0;
         int newIndex = 0;
+
+        // Create a new array to store strings with length <= 3
+        string[] newArray = new string[originalArray.Length];
+
+        // For Each Item
+        foreach (string item in originalArray)
+        {
+            // Length <= 3? (Decision)
+            if (item.Length <= 3)
+            {
+                // Add Row
+                newArray[newIndex] = item;
+                newIndex++;
+            }
+
+            // Increase Indexes
+            iterationCounter++;
+        }
